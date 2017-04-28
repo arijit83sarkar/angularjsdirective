@@ -1,1 +1,1 @@
-# angularjsdirective.github.io
+# angularjsdirective
