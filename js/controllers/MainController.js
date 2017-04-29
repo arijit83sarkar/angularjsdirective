@@ -10,7 +10,7 @@ app.controller('MainController', ['$scope', function($scope){
     icon: 'img/book2.png',
     name: 'Motor Cycle Diaries',
     author: 'Che Guyevara',
-    price: 2.86,
+    price: 2.32,
     pubdate: new Date('2011', '02', '20')
   };
   $scope.book3 = {
@@ -19,5 +19,12 @@ app.controller('MainController', ['$scope', function($scope){
     author: 'Amitav Ghosh',
     price: 2.20,
     pubdate: new Date('2010', '12', '16')
+  };
+  $scope.book4 = {
+    icon: 'img/book4.png',
+    name: 'Seasons of Ghost',
+    author: 'Ruskin Bond',
+    price: 2.75,
+    pubdate: new Date('2011', '10', '19')
   };
 }]);
