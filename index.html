@@ -18,18 +18,21 @@
     <div class='main' ng-controller='MainController'>
       <div class='container'>
         <div class='card'>
+          <img class='icon' ng-src='{{ book1.icon }}' >
           <h2 class='title'>{{ book1.name }}</h2>
           <p class='developer'>{{ book1.author }}</p>
           <p class='price'>{{ book1.price | currency }}</p>
         </div>
         
         <div class='card'>
+          <img class='icon' ng-src='{{ book2.icon }}' >
           <h2 class='title'>{{ book2.name }}</h2>
           <p class='developer'>{{ book2.author }}</p>
           <p class='price'>{{ book2.price | currency }}</p>
         </div>
         
         <div class='card'>
+          <img class='icon' ng-src='{{ book3.icon }}' >
           <h2 class='title'>{{ book3.name }}</h2>
           <p class='developer'>{{ book3.author }}</p>
           <p class='price'>{{ book2.price | currency }}</p>
