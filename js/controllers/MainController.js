@@ -14,7 +14,7 @@ app.controller('MainController', ['$scope', function($scope){
     pubdate: new Date('2011', '02', '20')
   };
   $scope.book3 = {
-    icon: 'book3.png',
+    icon: 'img/book3.png',
     name: 'Sea of Popies',
     author: 'Amitav Ghosh',
     price: 2.20,
