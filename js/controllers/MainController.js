@@ -23,4 +23,9 @@ app.controller('MainController', ['$scope', function($scope){
     author: 'Ruskin Bond',
     price: 2.75
   };
+  
+  $scope.apps = [
+    {
+    }
+    ];
 }]);
